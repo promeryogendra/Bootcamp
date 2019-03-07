@@ -1,0 +1,101 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<a href="https://www.google.com" title="Google">Click</a> Here to see google.
+		<br>
+		<a href="http://www.google.com" title="google">Click here to see google</a>
+		<br>
+		<a href="http://www.google.com">
+			<div>
+				<img src="../img/1.jpg" alt="alternative" width=400 height=400>
+			</div>
+		</a>
+		<!--Recomended Absolite path we use the complet webapp link that to where we want to redirect-->
+		<a href="https://www.amazon.in/Amkette-Telescopic-Dashboard-Windshield-Mobile/dp/B07H9BXCK7/ref=sr_1_1?s=electronics&rps=1&ie=UTF8&qid=1551923495&sr=1-1&refinements=p_89%3AAmkette%2Cp_85%3A10440599031%2Cp_6%3AA39YEVAHII35OQ">Absolute laptop link</a>
+		<br>
+		<!--Relative path we use the only html links that need to be redirected in our web project using the ./ || ../-->
+		<a href="./laptop.html">Relative Laptop path</a>
+
+
+		<!--Setting the Absolute path using parent directory and current directory 
+		
+		Desktop/bootcamp/laptops.html
+		Desktop/bootcamp/systems/lap1.html
+		<a href=".laptops.html"></a>
+		<a href="../systems/lap.html"></a>
+		-->
+
+		<br>
+		<!--Use the best suitable and understandable name to html page so that users can understand about page by looking at the url of the link.-->
+		<a href="./articles/how-to-use-dslr-in-a-best-way.html">How to use DSLR</a>
+		<br>
+
+		<!--To give the download link so that we can give our diarect file link so that user can feel very comfortable.-->
+		<a href="./documentation-of-web-project.pdf">Documentation of web project PDF (10MB ,1000 Pages)</a>
+		<br>
+		<!-- Download Attribute
+			Download attribute is very usefull when we have not usefull file name but we want to give a proper name when user download the dile so that user can get the file in required formate and name
+			ex:-
+			----
+				For example my mobile take pictures with names of current date/time
+				but i want to change name when it download
+		-->
+		<p></p><a href="./IMG070320190730AM.jpg" download="Today-session.jpg">Download</a> The image</p>
+		<br>
+
+		<!--Look at the cc attribute-->
+		<a href="mailto:promeryogendra.in">Contact us</a>
+		<a href="mailto:promeryogendra.in?cc=yogendra.rgu@gmail.com&Subject=Music%all">Contact us</a>
+		
+		<br><br><br>
+		<!--We can align them with clear and neet look-->
+		<dl>
+			<dt>Html</dt>
+			<dd>tags</dd>
+			<dt>Tags</dt>
+			<dd>Attributes</dd>
+		</dl>
+		<br>
+		<!--Q for quotes in between tect of another tags-->
+		<p>Hi <q>Html</q> How are you.I am Learning you.</p>
+		<br>
+		<!--Blockquote is used to -->
+		<blockquote cite="http://en.wikipedia.org/wiki/HTML">Hypertext Markup Language (Html) is standard markup Language.</blockquote>
+		<br>
+		<!--Abbrivation addr tag is used to give some imformation about the specific thing-->
+		<p><abbr title="Hyper text markup language">HTML</abbr> is a designing lanuage.</p>
+		<br>
+		<!--Address tag is used to show the address of some place-->
+		<address><br>My door-no , Myvillage , My district , My State</address>
+		<br>
+		<!--subscript-->
+		<h1>Yogi<sub>Promer</sub></h1>
+		<br>
+		<h1>2<sub>2</sub>=4</h1>
+		<br>
+		<!--Pre tag for showing the text as exactly as typed-->
+		<pre>
+			<code>a=input("Enter tag")
+				b=a*20;
+				if(a==b/20):
+					print("Nothing")
+				print(b)
+			</code>
+		</pre>
+		<br>
+		<!--Keyboard shortcut-->
+		<kbd>ctrl + c</kbd>
+		<br>
+		<!--Samp -->
+		<samp>x is 10</samp>
+		<!--Time tag-->
+		<time datetime="2019-03-07T7:50">7nth March , 2019</time>
+		Task is to practice about the below tags
+
+			Anchor elements 
+			paths
+		<br><br><br>
+	</body>
+</html>
